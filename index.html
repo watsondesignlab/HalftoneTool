@@ -395,7 +395,7 @@
 
         <div class="toolbar">
             <div class="toolbar-header">
-                <div class="logo">HALFTONE STUDIO</div>
+                <div class="logo">HALFTONE TOOL</div>
                 <button class="new-btn" id="new-btn">NEW</button>
             </div>
 
@@ -439,9 +439,9 @@
                 <div class="control-item">
                     <label class="control-label">Dot Shape</label>
                     <select class="shape-select" id="dot-shape">
+                        <option value="mixed">Mixed Random</option>
                         <option value="square">Square</option>
                         <option value="circle">Circle</option>
-                        <option value="mixed">Mixed Random</option>
                     </select>
                 </div>
                 
@@ -507,7 +507,7 @@
                 // Halftone settings
                 this.dotSize = 10;
                 this.dotColor = '#000000';
-                this.dotShape = 'square';
+                this.dotShape = 'mixed';
                 
                 // Image adjustments (using -100 to 100 range)
                 this.brightness = 0;
